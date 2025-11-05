@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+
+body { 
+    background-color:black ;
+    color: greenyellow;
+
+}
+
+#wrapper {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav li {
+    text-decoration: none;
+    background-color: #ff6200;
+    color: white;
+
+    padding: 10px 20px;
+    /* space inside */
+    border-radius: 8px;
+    /* rounded corners */
+    transition: all 0.3s ease;
+    /* smooth hover animation */
+    font-weight: bold;
+}
+
+nav li:hover {
+    background-color: white;
+    color: #ff6200;
+    transform: scale(1.05);
+    /* subtle grow effect */
+}
+
+img {
+    border: 2px solid rgb(175, 249, 64);
+    box-shadow: 0 0 20px greenyellow;
+    animation: growShrink 3s ease-in-out infinite;
+    margin: 1em;
+}
+
+@keyframes growShrink {
+
+    0%,
+    100% {
+        transform: scale(1);
+        /* start and end at normal size */
+    }
+
+    50% {
+        transform: scale(1.1);
+        /* grow in the middle of the cycle */
+    }
+}
+
+p {
+    font-family: creepster;
+    font-size: 1.5em;
+}
+
+h1,h2 {
+    font-family: eater;
+}

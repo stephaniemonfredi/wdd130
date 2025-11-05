@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+             background-color: #e8eced;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        #apostles-box {
+            background-image: url(images/christus.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 70% center;
+            border: 10px solid black;
+            border-radius: 30px;
+            max-width: 1000px;
+            margin: 30px auto;
+            text-align: center;
+        }
+        #first_presidency_box img{
+            margin: .8em
+
+        }
+        #first_presidency_box {
+            width: 700px;
+            margin: auto;
+        }
+        #quorum_twelve {
+            max-width: 700px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin: 0 auto;
+            justify-items: center;
+            row-gap: 1em;
+
+            
+
+        }
+
+        img {
+            border: 10px solid white;
+            border-radius: 50%;
+            width: 175px;
+            height: 175px;
+            object-fit: cover;
+            object-position: 50% 0;
+        }
+
+        img.large-image {
+            width:175px;
+            height: 175px;
+        }
+        img.medium-image {
+            width: 150px;
+            height: 150px;
+        }
+
+        img.small-image {
+            width: 125px;
+            height: 125px;
+        }
+
+        img:hover {
+            border-color: #60b9d0;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="apostles-box">
+        <h1>First Presidency</h1>
+        <div id="first_presidency_box">
+            <img src="images/eyring.webp" alt="Eyring" class="medium-image">
+            <img src="images/oaks.webp" alt="Oaks" class="large-image">
+            <img src="images/christofferson.webp" alt="Christofferson" class="medium-image">
+        </div>
+         <h2>Quorum of the Twelve Apostles</h2>
+        <div id="quorum_twelve">
+            <img class= small-image src="images/holland.webp" alt="Holland">
+            <img class= small-image src="images/uchtdorf.webp" alt="">
+            <img class= small-image src="images/bednar.webp" alt="">
+            <img class= small-image src="images/cook.webp" alt="">
+            <img class= small-image src="images/anderson.webp" alt="">
+            <img class= small-image src="images/rasband.webp" alt="">
+            <img class= small-image src="images/stevenson.webp" alt="">
+            <img class= small-image src="images/renlund.webp" alt="">
+            <img class= small-image src="images/gong.webp" alt="">
+            <img class= small-image src="images/soares.webp" alt="">
+            <img class= small-image src="images/kearon.webp" alt="">
+            <img class= small-image src="https://placehold.co/320x384" alt="">
+        </div>
+
+    </div>
+</body>
+</html>

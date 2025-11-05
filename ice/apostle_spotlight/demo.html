@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            max-width: 1400px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: end;
+            gap: 1em;
+
+        }
+        #box img {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            object-position: 50% 10%;
+            border: 5px solid black
+        }
+
+        img #middle-image {
+            width: 300px;
+            height: 300px;
+        }
+
+        #box h1 {
+            flex: 1 1 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>Demo Flex</h1>
+        <img src="images/anderson.webp" 
+        alt="">
+        <img id= middle-image src="images/anderson.webp" alt="">
+        <img src="images/anderson.webp" alt="">
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f9f9f6;
+    color: #2e2e2e;
+}
+
+header {
+    background-color: #14532d;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.logo {
+    width: 90px;
+    
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+nav {
+    background-color: #15803d;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #166534;
+}
+
+main {
+    padding: 2rem;
+    display: grid;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main h2,
+h3 {
+    color: #14532d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #C7DFC5;
+    color: #14532d;
+}
+
+form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #6e8a6c;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #166534;
+}
+
+footer {
+    background-color: #14532d;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav a {
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}
